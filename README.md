@@ -4,7 +4,7 @@
 
 Checking if it was properly created -
 
-```kubectl get secret secret-tiger-docker -o jsonpath='{.data.*}' | base64 -d```
+```kubectl get secret regcred -o jsonpath='{.data.*}' | base64 -d```
 
 ### Creating image of hello_world.py script
 
